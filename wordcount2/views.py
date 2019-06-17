@@ -24,3 +24,7 @@ def count(request):
 
     return render(request, 'count.html', {'count_result': result
                                           })
+
+
+def about(request):
+    return render(request, 'about.html')
